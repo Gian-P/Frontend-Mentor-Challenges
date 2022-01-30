@@ -2,5 +2,15 @@
 
 This repository has several branches in order to store the different kinds of challenges that I've completed from Frontend mentor.
 
-This repository contains all the newbie challenges from Frontend Mentor that I've completed.
+The branches correspond to the following categories:
+
+1-) Newbie challenges.
+
+2-) Junior challenges.
+
+3-) Intermediate challenges.
+
+4-) Advanced challenges.
+
+5-) Guru challenges.
 
