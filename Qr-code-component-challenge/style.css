@@ -1,3 +1,13 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --Outfit: 'Outfit', sans-serif;
+}
+*{
+  font-family: var(--Outfit);
+}
 body{
   background-color: hsl(212, 45%, 89%);
   display: flex;
@@ -5,10 +15,8 @@ body{
   justify-content: center;
   align-items: center;
   height: 97vh;
-  font-family: 'Outfit', sans-serif;
-
 }
-.try{
+.container{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,26 +24,36 @@ body{
   width: 340px;
   height: 525px;
   border-radius: 15px;
-  background-color: hsl(0, 0%, 100%);
-  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%)
+  background-color: var(--White);
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
 }
 
-.try img{
+.container img{
   width: 300px;
   height: 300px;
   border-radius: 15px;
 }
 
-.try h2{
-  color:hsl(218, 44%, 22%);
+.container h2{
+  color: var(--Dark-blue);
   text-align: center;
   width: 80%;
   margin-top: 18px;
   margin-bottom: 0;
 }
-.try p{
-  color: hsl(220, 15%, 55%);
+.container p{
+  color: var(--Grayish-blue);
   font-size: 16px;
   text-align: center;
   width: 76%;
 }
+
+.footer{
+  font-size: 14.3px;
+  margin-top: 15px;
+}
+.footer a:visited{
+  text-decoration: none;
+  color: black;
+}
+
