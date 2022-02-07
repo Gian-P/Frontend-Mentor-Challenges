@@ -5,21 +5,36 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+- [Author](#author)
 
 ## Overview
+
+## The challenge
+
+The challenge is to build out this QR code component and get it looking as close to the design as possible.
+
+### Screenshot
+
+![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+
+## My process
 
 ### Built with
 
 - HTML5 markup
+- CSS custom properties
 - Flexbox
 
-### What I learned/practiced
+### What I learned
 
 In this project I practiced my HTML and CSS/Flexbox, I did this by recreating a simple card layout.
 
-### Continued development
+## Author
 
-At this moment I'm not comfortable with Grid, Float, and I don't know any CSS framework, so in the future I will definitely be learning this topics and technologies.
+- Github repository - [Gian-P](https://github.com/Gian-P)
+
