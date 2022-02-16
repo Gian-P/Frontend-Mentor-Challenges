@@ -31,10 +31,11 @@ Users should be able to:
 - HTML5 markup
 - CSS custom properties
 - Flexbox
+- Media queries
 
 ### What I learned
 
-With this challenge I was able to practice my HTML and CSS/Flexbox habilities.
+With this challenge I was able to practice my HTML and CSS/Flexbox/responsiveness habilities.
 
 ## Author
 
