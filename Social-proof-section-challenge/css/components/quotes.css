@@ -1,0 +1,41 @@
+.quotes blockquote{
+  background-color: var(--clr-primary-700);
+  color: var(--clr-neutral-200);
+  text-align: left;
+  border-radius: var(--br);
+  padding: 2rem;
+  max-width: 25rem;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.quotes img{
+  width: 3rem;
+  border-radius: 50%;
+}
+
+@media (min-width:50em){
+  .quotes img{
+    margin-right:2rem;
+  }
+}
+
+.quotes .name{
+  font-weight: 800;
+}
+
+.quotes .status{
+  color: var(--clr-primary-300);
+}
+
+.quotes .quote{
+  margin-top: 2rem;
+}
+
+.quotes li:nth-child(2){
+  transform: translateY(3rem);
+}
+
+.quotes li:nth-child(3){
+  transform: translateY(6rem);
+}

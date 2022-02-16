@@ -1,0 +1,13 @@
+@import './base/root.css';
+@import './base/reset.css';
+@import './base/global.css';
+@import './base/utilities.css';
+@import './components/quotes.css';
+@import './components/ratings.css';
+
+
+@media (min-width: 50em){
+  :root {
+    --fs-900: 3rem; 
+  }
+}
