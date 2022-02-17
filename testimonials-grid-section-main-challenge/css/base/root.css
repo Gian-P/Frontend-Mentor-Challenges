@@ -1,0 +1,22 @@
+:root{
+  /*Moderate violet*/
+  --clr-primary-100: hsl(263, 55%, 52%);
+  /*Very dark grayish blue*/
+  --clr-primary-200: hsl(217, 19%, 35%);
+  /*Very dark blackish blue*/
+  --clr-primary-300: hsl(219, 29%, 14%);
+  /*White*/
+  --clr-primary-400: hsl(0, 0%, 100%);
+
+  /*Light gray*/
+  --clr-neutral-100: hsl(0, 0%, 81%);
+  /*Light grayish blue*/
+  --clr-neutral-200: hsl(210, 46%, 95%);
+
+  --ff-primary: 'Barlow Semi Condensed', sans-serif;
+
+  --br: .5rem;
+
+  --fs-100: .8125rem;
+
+}
