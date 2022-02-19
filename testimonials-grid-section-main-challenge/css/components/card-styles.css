@@ -1,9 +1,45 @@
 /*First card styles*/
+.first-card{
+  color: var(--clr-primary-400);
+  background-color: var(--clr-primary-100);
+  border-radius: var(--br);
+  padding: 2rem 2.2rem;
+  max-width: 25rem;
+}
+
 
 /*Second card styles*/
+.second-card{
+  color: var(--clr-primary-400);
+  background-color: var(--clr-primary-200);
+  border-radius: var(--br);
+  padding: 2rem 2.2rem;
+  max-width: 25rem;
+}
 
 /*Third card styles*/
+.third-card{
+  color: var(--clr-primary-200);
+  background-color: var(--clr-primary-400);
+  border-radius: var(--br);
+  padding: 2rem 2.2rem;
+  max-width: 25rem;
+}
 
 /*Fourth card styles*/
+.fourth-card{
+  color: var( --clr-primary-400);
+  background-color:var(--clr-primary-300);
+  border-radius: var(--br);
+  padding: 2rem 2.2rem;
+  max-width: 25rem;
+}
 
 /*Fifth card styles*/
+.fifth-card{
+  background-color: var(--clr-primary-400);
+  color: var(--clr-primary-200);
+  border-radius: var(--br);
+  padding: 2rem 2.2rem;
+  max-width: 25rem;
+}

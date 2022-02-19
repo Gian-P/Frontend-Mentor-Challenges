@@ -1,0 +1,50 @@
+body{
+  font-family: var(--ff-primary);
+  font-size: var(--fs-100);
+  background-color: var(--clr-neutral-200);
+  padding: 3rem 24px 0px 24px;
+}
+
+ul{
+  /*
+  display: flex;
+  flex-direction: column;
+  align-items: center;*/
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 26px;
+}
+
+.common-li-styles{
+  list-style: none;
+}
+
+.common-div-styles{
+  display: flex;
+  padding-bottom: 1rem;
+  gap: 16px;
+  align-items: center;
+}
+
+.common-image-style{
+  border-radius: 50%;
+  height: auto;
+}
+
+.common-quote-styles{
+  font-size: 1.231rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+  /*line-height: 1.1875rem;*/
+}
+
+.common-paragraph-styles{
+  font-size: 0.85rem;
+  line-height: 1.1875rem;
+  opacity: 70%;
+}
+
+.common-styles-tag{
+  opacity: 50%;
+}
