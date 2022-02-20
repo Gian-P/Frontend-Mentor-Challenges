@@ -34,8 +34,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 With this challenge I was able to practice my HTML and CSS/Flexbox/Grid/ Mobile first workflow/responsiveness habilities.
