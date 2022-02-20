@@ -28,14 +28,15 @@ Users should be able to:
 
 ### Built with
 
-- HTML5 markup
+- Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Media queries
+- CSS Grid
+- Mobile-first workflow
 
 ### What I learned
 
-With this challenge I was able to practice my HTML and CSS/Flexbox/responsiveness habilities.
+With this challenge I was able to practice my HTML and CSS/Flexbox/Grid/ Mobile first workflow/responsiveness habilities.
 
 ## Author
 
