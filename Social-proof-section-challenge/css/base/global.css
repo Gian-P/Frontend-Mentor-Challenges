@@ -12,7 +12,7 @@ body{
 }
 @media (min-width: 50em){
   body{
-    padding-top: 7.5rem;
+    padding-top: 5rem;
   }
 }
 h1{
@@ -40,7 +40,7 @@ h1{
 /*Layout stuff*/
 main{
   display: grid;
-  gap: 3rem 1rem;
+  gap: 2rem 1rem;
 }
 
 @media (min-width: 50em){

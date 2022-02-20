@@ -23,3 +23,13 @@
 .a-center{
   align-items: center;
 }
+.attribution {
+  font-size: 15px;
+  font-weight: 500;
+  grid-row: 2;
+}
+
+.attribution a:visited{
+  text-decoration: none;
+  color: black;
+}
