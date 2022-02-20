@@ -6,10 +6,6 @@ body{
 }
 
 ul{
-  /*
-  display: flex;
-  flex-direction: column;
-  align-items: center;*/
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
@@ -46,5 +42,20 @@ ul{
 }
 
 .common-styles-tag{
+  opacity: 50%
+}
+
+.attribution{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.attribution a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.attribution a{
   opacity: 50%;
 }
