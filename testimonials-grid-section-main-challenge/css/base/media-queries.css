@@ -1,6 +1,6 @@
 @media (min-width:950px){
   body{
-    padding: 1.5rem 3rem 1.5rem 3rem;
+    padding: 0.25rem 3rem 0rem 3rem;
   }
 
   ul{
@@ -30,7 +30,7 @@
   #fourth-card-id{
     max-width: unset;
     grid-column: 2 / 4;
-    order: 5;
+    order: 5; 
   }
 
   #fourth-card-img-id{
