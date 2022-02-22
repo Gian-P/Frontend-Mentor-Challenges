@@ -1,4 +1,4 @@
-@media (min-width:950px){
+@media (min-width:59.375em){
   body{
     padding: 0.25rem 3rem 0rem 3rem;
   }
@@ -13,6 +13,7 @@
     max-width: unset;
     grid-column: 1 / 3;
     order: 1;
+    background-position:top 2px right 105px;
   }
 
   #first-card-img-id{
