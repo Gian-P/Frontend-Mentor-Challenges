@@ -15,6 +15,9 @@
   /*White*/
   --clr-neutral-600: hsl(0, 0%, 100%);
 
+  /*Hover*/
+  --hover: rgb(159,232,223);
+
   /*Family: [Space Mono](https://fonts.google.com/specimen/Space+Mono)*/
   /*- Weights: 400, 500, 700*/
   --ff-primary: 'Space Mono', monospace, sans-serif;

@@ -19,36 +19,48 @@
   </style>
 </head>
 <body>
-  <h1>SPLI <br>
-    TTER</h1>
-  <div class="container">
+    <img src="/images/logo.svg" alt="" class="logo">
     <main>
-      <label for="" class="label-1 common-label-styles">Bill</label>
-      <input type="number" class="input-1 common-input-styles" >
-      <label for="" class="label-2 common-label-styles">Select Tip %</label>
-      <div class="grid-buttons-container">
-        <button>5%</button>
-        <button>10%</button>
-        <button>15%</button>
-        <button>25%</button> 
-        <button>50%</button>
-        <input type="text" class="input-2" value="   Custom">
-      </div>
-      <label for="" class="label-3 common-label-styles">Number of People</label>
-      <input type="number" class="input-3 common-input-styles">
-      <div class="div-results">
-        <div> <span class="span-1-styles">Tip Amount</span> 
-          <span class="span-2-styles">/ person</span></div>
-        <div class="div-results-amount"> <img src="/images/icon-dollar.svg" alt="" class="img-styles"><span class="common-span-styles">000</span></div>
-        <div><span class="span-1-styles">Total</span>
-          <span class="span-2-styles">
-            / person</span></div>
+      <div class="container" id="container">
+        <div>
+          <label for="" class="label-1 common-label-styles">Bill</label>
+          <input type="number" class="input-1 common-input-styles" id="common-input-styles" >
+          <label for="" class="label-2 common-label-styles">Select Tip %</label>
+          <div class="grid-buttons-container" id="grid-buttons-container">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button> 
+            <button>50%</button>
+            <input type="text" class="input-2" value="   Custom">
+          </div>
+          <label for="" class="label-3 common-label-styles">Number of People</label>
+          <input type="number" class="input-3 common-input-styles" id="common-input-styles">
+        </div>
+      
+        <div>
+          <div class="div-results" id="div-results">
+            <div> <span class="span-1-styles">Tip Amount</span> 
+              <span class="span-2-styles">/ person</span></div>
 
-        <div class="div-results-amount"><img src="/images/icon-dollar.svg" alt="" class="img-styles"><span class="common-span-styles">000</span></div>
-        <button class="reset-button">RESET</button>
+            <div class="div-results-amount"> 
+            <span class="common-span-styles"><img src="./images/icon-dollars2.svg" alt="" class="img-styles">0.00</span>
+            </div>
+
+            <div><span class="span-1-styles">Total</span>
+            <span class="span-2-styles">/ person</span></div>
+
+            <div class="div-results-amount">
+            <span class="common-span-styles"><img src="./images/icon-dollars2.svg" alt="" class="img-styles">0.00</span>
+            </div>
+
+            <button class="reset-button" id="reset-button">RESET</button>
+          </div>
+        </div>
       </div>
     </main>
-  </div>
+      
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.

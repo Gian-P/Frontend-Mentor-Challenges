@@ -2,11 +2,13 @@
   background-color: var(--clr-neutral-600);
   display: grid;
   max-width: 25rem;
-  min-height: 43rem;
+  min-height: 45rem;
   padding: 1.875rem;
-  border-radius: 5%;
+  border-radius: 1.25rem;
 }
-
+.logo{
+  margin: 1.875rem 0rem;
+}
 .label-1{
   display: block;
   margin-bottom: 0.3125rem;
@@ -14,15 +16,11 @@
 
 .label-2{
   display: block;
-  margin-bottom: 0.625rem;
-}
-
-.label-3{
-  
+  margin-bottom: 0.9375rem;
 }
 
 .input-1{
-  margin-bottom: 1.5625rem;
+  margin-bottom: 1.75rem;
   background-image: url(/images/icon-dollar.svg);
 
 }
@@ -33,37 +31,31 @@
   border: none;
   color: var(--clr-neutral-200);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.input-2:focus{
+  color: var(--clr-neutral-100);
+  font-weight: 700;
+  border-radius: 0.3125rem;
 }
 
 .input-3{
   margin-top: 0.3125rem;
   margin-bottom: 1.75rem;
   background-image: url(/images/icon-person.svg);
-
-}
-
-.common-input-styles{
-  height: 8%;
-  width: 100%;
-  background-color: var(--clr-neutral-500);
-  border: 0;
-  border-radius: 5%;
-  background-repeat: no-repeat;
-  background-position: center left 1.0625rem;
 }
 
 .div-results{
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: var(--clr-neutral-100);
-  padding: 1.25rem;
-  gap: 0.625rem;
-  border-radius: 4%;
+  padding: 2.5rem 2.0625rem 1.375rem 2.0625rem;
+  row-gap: 1.5625rem;
+  border-radius: 1.25rem;
 }
 
 .div-results-amount{
-  align-self: end;
   justify-self: end;
 }
 
@@ -72,12 +64,15 @@
   padding: 0.625rem 0rem;
   background-color: var(--clr-primary-100);
   border: none;
-  border-radius: 3%;
+  border-radius: 0.3125rem;
   color: var(--clr-neutral-100);
   font-weight: 600;
+  margin-top: 0.3125rem;
 }
 
-.common-span-styles{
-  color: var(--clr-primary-100);
-    font-size: 2rem;
+.reset-button:hover{
+  font-weight: 700;
+  background-color: var(--hover);
+  color: var(--clr-neutral-100);
 }
+

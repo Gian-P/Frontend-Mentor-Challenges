@@ -6,20 +6,11 @@ body{
   align-items: center;
 }
 
-h1{
-  color: var(--clr-neutral-100);
-  letter-spacing: 10px;
-  font-weight: 600;
-  font-size: 1.5rem;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-
 .grid-buttons-container{
   display: grid;
   grid-template-columns: 1fr 1fr ;
   gap: 0.8125rem;
-  margin-bottom: 1.5625rem;
+  margin-bottom: 1.875rem;
 }
 
 .grid-buttons-container button{
@@ -29,8 +20,20 @@ h1{
   background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-600);
   border: none;
-  padding: 8px 0px;
-  border-radius: 5%;
+  padding: 0.5rem 0rem;
+  border-radius: 0.3125rem;
+}
+
+.grid-buttons-container button:focus{
+  font-weight: 700;
+  background-color: var(--clr-primary-100);
+  color: var(--clr-neutral-100);
+}
+
+.grid-buttons-container button:hover{
+  font-weight: 700;
+  background-color: var(--hover);
+  color: var(--clr-neutral-100);
 }
 
 .common-label-styles{
@@ -45,12 +48,35 @@ h1{
 
 .span-2-styles{
   color: var(--clr-neutral-300);
-  font-size: 14px;
+  font-size: 0.857rem;
 }
 
 .img-styles{
-  margin-right: 3px;
-  color: var(--clr-primary-100);
-  font-size: 2rem;
+  width: 1.2rem;
+  height: auto;
 }
 
+.common-input-styles{
+  height: 10%;
+  width: 100%;
+  background-color: var(--clr-neutral-500);
+  border: 0;
+  border-radius: 0.3125rem;
+  background-repeat: no-repeat;
+  background-position: center left 1.0625rem;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-left: 16.3125rem;
+  color: var(--clr-neutral-100);
+}
+
+input:focus {
+  outline: none;
+  border: 3px solid var(--clr-primary-100);
+}
+
+.common-span-styles{
+  color: var(--clr-primary-100);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
