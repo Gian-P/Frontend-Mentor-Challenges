@@ -66,8 +66,7 @@ body{
   background-position: center left 1.0625rem;
   font-weight: 700;
   font-size: 2rem;
-  padding-left: 16.3125rem;
-  color: var(--clr-neutral-100);
+  color: var(--clr-neutral-200);
 }
 
 input:focus {
