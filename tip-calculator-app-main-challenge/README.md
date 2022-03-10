@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Tip Calculator app challenge]
+Design preview for the Tip Calculator app challenge
 
 ![desktop](./desktop.png)
 ![mobile](./mobile.png)
