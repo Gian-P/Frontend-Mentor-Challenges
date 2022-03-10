@@ -1,6 +1,6 @@
 # Frontend Mentor - Tip calculator app solution
 
-This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX).
 
 ## Table of contents
 
@@ -9,6 +9,7 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -21,25 +22,27 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Calculate the correct tip and total cost of the bill per person
 
-### Links
-
-- Solution URL: [GitHub](https://github.com/sergii-moroz/tip-calculator-app)
-
-## My process
-
-[YouTube](https://youtu.be/Bz_3odLrekg)
-
-### Built with
-
-- HTML5
-- SASS
-
-## Author
-
-- Website - [YouTube](https://youtu.be/Bz_3odLrekg)
-- Frontend Mentor - [link](https://www.frontendmentor.io/profile/sergii-moroz)
-
 ### Screenshot
+
+![Design preview for the Tip Calculator app challenge]
 
 ![desktop](./desktop.png)
 ![mobile](./mobile.png)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 Markup
+- SASS
+- JS
+- Flexbox
+- Mobile-first workflow
+
+### What I learned
+
+With this challenge I was able to practice my HTML and CSS/Flexbox Mobile first workflow/responsiveness habilities and also my JS habilities.
+
+## Author
+
+- Github repository - [Gian-P](https://github.com/Gian-P)
