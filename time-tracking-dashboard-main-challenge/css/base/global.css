@@ -1,0 +1,21 @@
+body{
+  background-color: var(--clr-neutral-100);
+  font-family: var(--ff-primary);
+}
+
+.container{
+  /*
+  display: grid;
+  grid-template-columns: 1fr;*/
+  width: 88%;
+  margin: 1.25rem auto;
+}
+ul{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.53125rem;
+}
+li{
+  list-style: none;
+}
+
