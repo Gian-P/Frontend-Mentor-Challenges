@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/script.js" defer></script>
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
@@ -20,128 +21,23 @@
 </head>
 <body>
   <div class="container">
-    <main>
-      <ul>
-        <li class="first-card">
-          <blockquote>
-            <div class="top-part-first-card">
-              <img src="./images/image-jeremy.png" alt=""> 
-              <div class="first-card-credentials">
-                <p>Report for</p>
-                <p>Jeremy Robson</p>
-              </div>       
-            </div>
-            <div class="bottom-part-first-card">
-              <p>Daily</p>
-              <p>Weekly</p> 
-              <p>Monthly</p>
-            </div>
-          </blockquote>
-        </li>
-        <li class="second-card">
-          <blockquote>
-            <div class="top-part-second-card">
-            </div>
-            <div class="bottom-part-second-card common-bottom-part-styles">
-              <div class="bottom-part-left-side">
-                <p>
-                  Work
-                </p>
-                <p>32hrs</p>
-              </div>
-              <div class="bottom-part-right-side">
-                <span>...</span>
-                <p>Last week - 36hrs</p>
-              </div>
-            </div>
-          </blockquote>
-        </li>
-
-        <li class="third-card">
-          <blockquote>
-            <div class="top-part-third-card">
-            </div>
-            <div class="bottom-part-third-card common-bottom-part-styles">
-              <div>
-                <p>
-                  Play
-                </p>
-                <p>10hrs</p>
-              </div>
-              <p>Last week - 8hrs</p>
-            </div>
-          </blockquote>
-        </li>
-
-        <li class="fourth-card">
-          <blockquote>
-            <div class="top-part-fourth-card">
-            </div>
-            <div class="bottom-part-fourth-card common-bottom-part-styles">
-              <div>
-                <p>
-                  study
-                </p>
-                <p>4hrs</p>
-              </div>
-              <p>Last week - 7hrs</p>
-            </div>
-          </blockquote>
-        </li>
-
-        <li class="fifth-card">
-          <blockquote>
-            <div class="top-part-fifth-card">
-            </div>
-            <div class="bottom-part-fifth-card common-bottom-part-styles">
-              <div>
-                <p>
-                  Exercise
-                </p>
-                <p>4hrs</p>
-              </div>
-              <p>Last week - 5hrs</p>
-            </div>
-          </blockquote>
-        </li>
-
-        <li class="sixth-card">
-          <blockquote>
-            <div class="top-part-sixth-card">
-            </div>
-            <div class="bottom-part-sixth-card common-bottom-part-styles">
-              <div>
-                <p>
-                  Social
-                </p>
-                <p>5hrs</p>
-              </div>
-              <p>Last week - 10hrs</p>
-            </div>
-          </blockquote>
-        </li>
-
-        <li class="seventh-card">
-          <blockquote>
-            <div class="top-part-seventh-card">
-            </div>
-            <div class="bottom-part-seventh-card common-bottom-part-styles">
-              <div>
-                <p>
-                  Self Care
-                </p>
-                <p>2hrs</p>
-              </div>
-              <p>Last week - 2hrs</p>
-            </div>
-          </blockquote>
-        </li>
-      </ul>
-    </main>
+    <div class="menu-card">
+      <div class="card-report">
+        <img src="./images/image-jeremy.png" alt="image jeremy">
+        <div class="report">
+            <p>Report for</p>
+            <div class="name">Jeremy Robson</div>
+        </div>
+      </div>
+  
+      <div class="menu">
+        <div class="menu-link">Daily</div>
+        <div class="menu-link menu-active">Weekly</div>
+        <div class="menu-link">Monthly</div>
+      </div>
+    </div>
   </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
 </html>
+
