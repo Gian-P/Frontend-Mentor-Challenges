@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg) 
 
 ## My process
 
@@ -35,8 +35,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
